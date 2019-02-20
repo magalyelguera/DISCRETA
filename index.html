@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>TAREA1</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+   <!DOCTYPE html>
+<html>
+<head>
+    <link rel = "stylesheet" href = "style.css"> <!--enlace con css-->
+    <script src="app.js"></script>
+    <meta charset="UTF-8"> <!--enlace con css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--enlace con css-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--enlace con css-->
+    <title>TRIVIA LABORATORIA</title>
+</head>
+  
+ 
+<body>
+  <div id = "interfaz1"> <!--primera pagina-->
+   <h1 class="box">Trivia para una Laboratorian</h1>
+   <div id="play" class="play">
+    <label class="subtitle">Queremos conocerte ¿Como te llamas?</label>
+   </div>
+   <div id="one">
+     <input type="text" placeholder="Nombre" id="name"> 
+    </div>
+    <div id="two">
+   <button class="boton" onclick="myFunction()">¡ADELANTE!</button>
+    </div> 
+ </div>
+    
+<!--...-->
+    
+<!--categorias-->
+
+<div id="interfaz2">
+  <h1 id="bienvenida"></h1>
+  <p>Elige una categoria</p>
+  <div id="options">
+    <button id="option1" class="btn" onclick="functionA()">Reponde las preguntas</button>
+    <button id="option2" class="btn" onclick="functionB()">Reconoce las imagenes</button>
+    </div>
+</div>
+  
+<!--Preguntas Señora Interesante-->
+
+<div id="responde1">
+  <div id="question1" class= "question">
+    <h1> ¿Cual es el eslogan de Laboratoria?</h1>
+  </div>
+  <div id="answers1" class="answers">
+    <label>
+      <input type="radio" name="quest1" value="A" id = "firstA"> Talento Femenino que Transforma
+    </label>
+    <br>
+    </br>
+    <label>
+      <input type="radio" name="quest1" value="B" id = "firstB"> Talento Femenino para el Mundo
+    </label>
+    <br>
+    </br>
+    <label>
+     <input type="radio" name="quest1" value="C" id = "firstC"> Talento que transforma
+    </label>
+  </div>
+  <div id= "next1">
+    <button id="btn1" class="btn" onclick="Q1()">Siguiente</button>
+   </div>
+ </div>
+
+<div id="responde2">
+  <div id="question2" class= "question">
+    <h1> ¿Quien dijo " Es importante mencionar que la tasa de exito de Laboratoria ya ha sido extraordinaria"?</h1>
+  </div>
+      <div id="answers2"class= "answers">
+          <label>
+            <input type="radio" name="quest2" value="A" id = "secondA"> Barack Obama
+          </label>
+          </br>
+          </br>
+          <label>
+            <input type="radio" name="quest2" value="B" id = "secondB"> Mark Zuckerberg
+          </label>
+          <br>
+          </br>
+          <label>
+            <input type="radio" name="quest2" value="C" id = "secondC"> Mariana Costa
+          </label>
+    </div>
+    <div id= "next2">
+        <button id="btn2" class="btn" onclick="Q2()">Siguiente</button>
+        </div>
+</div>
+
+<div id="responde3">
+<div id="question3" class="question"><h1> ¿Cuantas sedes tiene Laboratoria?</h1></div>
+    <div id="answers3" class= "answers">
+      <label>
+        <input type="radio" name="quest3" value="A" id = "thirdA"> Una
+      </label>
+          <br>
+          </br>
+      <label>
+            <input type="radio" name="quest3" value="B" id = "thirdB"> Cuatro
+      </label>
+          <br>
+          </br>
+          <label>
+            <input type="radio" name="quest3" value="C" id = "thirdC"> Cinco
+          </label>
+    <div id= "next3">
+        <button id="btn3" class="btn" onclick="Q3()">Siguiente</button>
+        </div>
+</div>
+</div>
+
+
+<div id = "reconoce1">
+  <div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"/></a>
+  </div>
+    <div id = "question4" class="question"> <h1> ¿Que logo es este? </h> </div>
+        <div id = "answers4" class="answers">
+        <label>
+            <input type="radio" name="quest1" value="A" id = "primerA"> Html
+        </label>
+            <br>        
+            </br>
+        <label>
+            <input type="radio" name="quest1" value="B" id = "primerB"> Laboratoria
+        </label>
+        <br>
+        </br>
+        <label>
+            <input type="radio" name="quest1" value="C" id = "primerC"> JavaScript
+        </label>
+    <div id = "next4">
+        <button id="btn4" class="btn" onclick="QC1()">Siguiente</button>
+    </div>
+        </div>
+</div>
+
+<div id = "reconoce2">
+ <div>
+  <img src="https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/29598069_923498544491220_7607067312275824752_n.jpg?_nc_cat=108&_nc_ht=scontent-scl1-1.xx&oh=3e6ed1c6d2a70f27467921d826f23e64&oe=5CF4DF3D"/></a>
+  </div>
+  <div
+      
+         id = "question2" class="question"> <h1> ¿Que logo es este? </h> </div>
+        <div id = "answers5" class="answers">
+        <label>
+            <input type="radio" name="quest2" value="A" id = "segundaA"> Laboratoria
+        </label>
+        <br>
+        </br>
+        <label> 
+            <input type="radio" name="quest2" value="B" id = "segundaB"> JavaScript
+        </label>
+        <br>
+        </br>
+        <label>
+            <input type="radio" name="quest2" value="C" id = "segundaC"> css
+        </label>
+    <div id = "next5">
+        <button id="btn5" class="btn"onclick="QC2()">Siguiente</button>
+    </div>
+        </div>
+</div>
+
+
+<div id = "reconoce3">
+   <div>
+        
+  <img src="https://raw.githubusercontent.com/Laboratoria/BootcampSemana1/master/img/sem1_caos.PNG"/></a>
+
+
+  </div>
+        <div id = "question3" class="question"> <h1> ¿Que representa la siguiente imagen? </h> </div>
+        <div id="answers6" class="answers">
+        <label>
+            <input type="radio" name="quest3" value="A" id = "tercerA"> Nuestro estado de animo en la pre-admision
+        </label>
+        <br>
+        </br>
+        <label>
+            <input type="radio" name="quest3" value="B" id = "B"> Nuestro proceso para resolver un proyecto
+        </label>
+        <br>
+        </br>
+        <label>
+            <input type="radio" name="quest3" value="C" id = "C"> Nuestra temperatura en verano
+        </label>
+    <div id = "next6">
+        <button id="btn6" class="btn" onclick="QC3()">Siguiente</button>
+    </div>
+        </div>
+</div>
+</body>
+
+
+  
+
+
+  
+  
+<!-- Pantalla de resultado final de la trivia #1 -->
+
+<div id = "final">
+        <h1 id = "resultado" class="box"></h1>
+  <p> ¿JUGAR DE NUEVO?</p>
+        <form id="playAgain">
+            <button onclick="denuevo()">¡DE NUEVO!</button>
+        </form>
+         </div>
+
+
+<div id = "finalreconoce">
+        <h1 id = "resultadoreconoce" class="box"></h1>
+  <p> ¿JUGAR DE NUEVO?</p>
+        <form id="tryAgain">
+            <button onclick="denuevo()">¡DE NUEVO!</button>
+        </form>
+         </div>
+  
+  
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
